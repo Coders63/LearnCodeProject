@@ -1,0 +1,42 @@
+#sidenav{
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed!important;
+    z-index: 1;
+    overflow: auto;
+}
+
+#leftmenuinner{
+    position: fixed;
+    top: 0;
+    padding-top: 56px;
+    padding-bottom: 0;
+    height: 100%;
+    width: 220px;
+    background-color: transparent;
+}
+#leftmenuinnerinner{
+    height: 100%;
+    width: 100%;
+    background-color: #E7E9EB;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+#sidenav h2{
+    font-size: 21px;
+    padding-left: 16px;
+    margin: -4px 0 4px 0;
+    width: 204px;
+}
+.left-nav-content{
+    font-family: sans-serif;
+    font-size: medium;
+}
+.left-nav-content a{
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 2px 1px 1px 16px
+}
