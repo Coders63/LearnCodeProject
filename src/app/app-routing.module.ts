@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AngularHomeComponent } from './angular/angular-home/angular-home.component';
 import { AngularComponent } from './angular/angular.component';
 import { DotNetCoreMvcComponent } from './dot-net-core-mvc/dot-net-core-mvc.component';
 import { DotNetCoreComponent } from './dot-net-core/dot-net-core.component';
@@ -13,6 +14,10 @@ const routes: Routes = [
   {
     path:'Angular',
     component:AngularComponent
+  },
+  {
+    path:'angular-home',
+    component:AngularHomeComponent
   },
   {
     path:'dotNetCore',

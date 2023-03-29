@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { AngularComponent } from './angular/angular.component';
 import { DotNetCoreComponent } from './dot-net-core/dot-net-core.component';
 import { DotNetCoreMvcComponent } from './dot-net-core-mvc/dot-net-core-mvc.component';
+import { AngularHomeComponent } from './angular/angular-home/angular-home.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DotNetCoreMvcComponent } from './dot-net-core-mvc/dot-net-core-mvc.comp
     HomeComponent,
     AngularComponent,
     DotNetCoreComponent,
-    DotNetCoreMvcComponent
+    DotNetCoreMvcComponent,
+    AngularHomeComponent
   ],
   imports: [
     BrowserModule,
