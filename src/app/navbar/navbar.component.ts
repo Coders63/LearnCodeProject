@@ -11,7 +11,7 @@ export class NavbarComponent implements OnInit {
   
   public angularList = ComponentList
   public courseList = CoursesList
-  public showSideNav : boolean
+  public showSideNav : boolean = false;
   constructor() {
     
    }

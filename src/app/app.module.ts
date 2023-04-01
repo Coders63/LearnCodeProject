@@ -6,8 +6,6 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { AngularComponent } from './angular/angular.component';
-import { DotNetCoreComponent } from './dot-net-core/dot-net-core.component';
-import { DotNetCoreMvcComponent } from './dot-net-core-mvc/dot-net-core-mvc.component';
 import { AngularHomeComponent } from './angular/angular-home/angular-home.component';
 
 @NgModule({
@@ -16,8 +14,6 @@ import { AngularHomeComponent } from './angular/angular-home/angular-home.compon
     NavbarComponent,
     HomeComponent,
     AngularComponent,
-    DotNetCoreComponent,
-    DotNetCoreMvcComponent,
     AngularHomeComponent
   ],
   imports: [
