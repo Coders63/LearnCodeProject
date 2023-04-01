@@ -1,5 +1,5 @@
 <header>
-  <div class=" d-lg-block sidebar bg-white" id="sidenav">
+  <div class=" d-lg-block sidebar bg-white" id="sidenav" *ngIf="showSideNav">
     <div id="leftmenuinner" class="position-sticky">    
         <div id="leftmenuinnerinner">
             <h2 class="left">
@@ -36,9 +36,9 @@
               Prepare
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" routerLink="/Angular"> Angular</a></li>
-              <li><a class="dropdown-item" routerLink="/dotNetCore">Dot NET Core</a></li>
-              <li><a class="dropdown-item" routerLink="/dotNetCoreMvc">Dot NET Core MVC</a></li>
+              <li *ngFor="let courses of courseList">
+                <a class="dropdown-item" routerLink="/Angular" (click) = "ShowAndHideSideNav()">{{courses.name}}</a>
+              </li>
             </ul>
           </li>          
         </ul>

@@ -9,3 +9,5 @@ export const ComponentList : Angularheader[] =
     {Id :3 , name : "Angular life cycle hooks"},
     {Id : 4, name : "Angular Directivs"}
 ];
+
+

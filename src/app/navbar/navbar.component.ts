@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {ComponentList} from './types/AngularComponentsList';
+import {CoursesList} from './types/courseheader'
 
 @Component({
   selector: 'app-navbar',
@@ -9,6 +10,8 @@ import {ComponentList} from './types/AngularComponentsList';
 export class NavbarComponent implements OnInit {
   
   public angularList = ComponentList
+  public courseList = CoursesList
+  public showSideNav : boolean
   constructor() {
     
    }
@@ -16,6 +19,8 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  
+  public ShowAndHideSideNav(){
+    this.showSideNav = true;
+  }
 
 }
