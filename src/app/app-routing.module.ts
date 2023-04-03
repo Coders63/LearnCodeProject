@@ -14,7 +14,7 @@ const routes: Routes = [
     component:AngularComponent
   },
   {
-    path:'angular-home',
+    path:'angular-home/:id',
     component:AngularHomeComponent
   },
 ];

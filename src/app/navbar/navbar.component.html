@@ -7,7 +7,7 @@
             </h4>
             <ul class="nav flex-column left-nav-content" click="GetComponent($event)">
                 <li class="nav-item" *ngFor="let item of angularList">
-                    <a class="nav-link text-dark">{{item.name}}</a>
+                    <a [routerLink]="['/angular-home', item.Id]" class="nav-link text-dark">{{item.name}}</a>
                 </li>
               </ul>
         </div>
